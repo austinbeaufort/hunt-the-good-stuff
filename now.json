@@ -2,7 +2,7 @@
     "version": 2,
     "builds": [
         {"src": "index.html", "use": "@now/static"},
-        {"src": "../server/index.js", "use": "@now/node"}
+        {"src": "server/index.js", "use": "@now/node"}
     ]
 }
 
