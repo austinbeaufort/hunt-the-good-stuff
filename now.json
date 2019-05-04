@@ -4,7 +4,8 @@
         {"src": "index.html", "use": "@now/static"},
         {"src": "styles.css", "use": "@now/static"},
         {"src": "loading.gif", "use": "@now/static"},
-        {"src": "/server/index.js", "use": "@now/node"}
+        {"src": "client.js", "use": "@now/static"},
+        {"src": "server/index.js", "use": "@now/node"}
     ]
 }
 
