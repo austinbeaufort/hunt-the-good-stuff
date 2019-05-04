@@ -1,8 +1,8 @@
 {
     "version": 2,
     "builds": [
-        {"src": "client/index.html", "use": "static"},
-        {"src": "server/index.js", "use": "node"}
+        {"src": "client/index.html", "use": "@now/static"},
+        {"src": "server/index.js", "use": "@now/node"}
     ]
 }
 
