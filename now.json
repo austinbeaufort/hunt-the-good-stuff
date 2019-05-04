@@ -1,0 +1,8 @@
+{
+    "version": 2,
+    "builds": [
+        {"src": "client/index.html"},
+        {"src": "server/index.js"}
+    ]
+}
+
