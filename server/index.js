@@ -73,6 +73,8 @@ app.post('/stories', (req, res) => {
     }
 });
 
-app.listen(5000, () => {
+let port = process.env.PORT;
+
+app.listen(port || 5000, () => {
     console.log('listening on http://localhost:5000');
 });
